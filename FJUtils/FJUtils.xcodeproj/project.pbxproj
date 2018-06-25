@@ -15,7 +15,7 @@
 		8E18772B20E113840083A941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18772A20E113840083A941 /* main.m */; };
 		8E18773520E113840083A941 /* FJUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18773420E113840083A941 /* FJUtilsTests.m */; };
 		8E18774020E113840083A941 /* FJUtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18773F20E113840083A941 /* FJUtilsUITests.m */; };
-		8E18775120E114100083A941 /* StoryboardUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18774F20E114100083A941 /* StoryboardUtils.m */; };
+		8E18775620E1226E0083A941 /* StoryboardUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18775420E1226E0083A941 /* StoryboardUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		8E18773B20E113840083A941 /* FJUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E18773F20E113840083A941 /* FJUtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJUtilsUITests.m; sourceTree = "<group>"; };
 		8E18774120E113840083A941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E18774F20E114100083A941 /* StoryboardUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardUtils.m; sourceTree = "<group>"; };
-		8E18775020E114100083A941 /* StoryboardUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardUtils.h; sourceTree = "<group>"; };
-		8E18775220E1170E0083A941 /* FJUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJUtils.h; sourceTree = "<group>"; };
+		8E18775420E1226E0083A941 /* StoryboardUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardUtils.m; sourceTree = "<group>"; };
+		8E18775520E1226E0083A941 /* StoryboardUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardUtils.h; sourceTree = "<group>"; };
+		8E18775720E122730083A941 /* FJUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,8 @@
 		8E18771A20E113810083A941 /* FJUtils */ = {
 			isa = PBXGroup;
 			children = (
-				8E18774D20E113D10083A941 /* Utils */,
+				8E18775720E122730083A941 /* FJUtils.h */,
+				8E18775320E1226E0083A941 /* Storyboard */,
 				8E18771B20E113810083A941 /* AppDelegate.h */,
 				8E18771C20E113810083A941 /* AppDelegate.m */,
 				8E18771E20E113810083A941 /* ViewController.h */,
@@ -137,20 +138,11 @@
 			path = FJUtilsUITests;
 			sourceTree = "<group>";
 		};
-		8E18774D20E113D10083A941 /* Utils */ = {
+		8E18775320E1226E0083A941 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				8E18775220E1170E0083A941 /* FJUtils.h */,
-				8E18774E20E114100083A941 /* Storyboard */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		8E18774E20E114100083A941 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				8E18775020E114100083A941 /* StoryboardUtils.h */,
-				8E18774F20E114100083A941 /* StoryboardUtils.m */,
+				8E18775420E1226E0083A941 /* StoryboardUtils.m */,
+				8E18775520E1226E0083A941 /* StoryboardUtils.h */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -287,7 +279,7 @@
 			files = (
 				8E18772020E113810083A941 /* ViewController.m in Sources */,
 				8E18772B20E113840083A941 /* main.m in Sources */,
-				8E18775120E114100083A941 /* StoryboardUtils.m in Sources */,
+				8E18775620E1226E0083A941 /* StoryboardUtils.m in Sources */,
 				8E18771D20E113810083A941 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

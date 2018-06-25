@@ -1,6 +1,6 @@
 Pod::Spec.new do |s| 
 s.name = "FJUtils" # 名称 （同工程名，写错了就用不了了）
-s.version = "0.0.2" # 代码库的版本
+s.version = "0.0.3" # 代码库的版本
 s.summary = "公共方法" # 简介
 s.description = "公共方法，方便以后调用" # 描述
 
@@ -11,7 +11,10 @@ s.platform = :ios, "9.0" # 代码库最低支持的版本
 s.source = { :git => "https://github.com/KONGFANJI/FJUtils.git",:tag => s.version}   # 代码的Clone 地址 和 tag 版本
 s.requires_arc = true # 框架是否使用的ARC
 
-s.source_files = 'FJUtils/FJUtils/Utils/*.*','FJUtils/FJUtils/Utils/Storyboard/*.*'
+s.source_files =
+'FJUtils/FJUtils/FJUtils.h',
+'FJUtils/FJUtils/Storyboard/*.*'
+
 
 
 s.frameworks = "Foundation","UIKit"

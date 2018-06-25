@@ -8,8 +8,8 @@ paths="$( find  $DIR  -name *.podspec )"
 funWithPod() {
 while :
 do
-	podParams="--sources=https://gitlab.com/private-snipper-group/THSpecs,https://github.com/CocoaPods/Specs.git --allow-warnings --use-libraries --verbose"
-	echo '1:本地验证（pod lib lint)；2:远程验证(pod spec lint);3:提交到远程仓库(pod repo push)'
+	podParams="--sources=https://github.com/CocoaPods/Specs.git --allow-warnings --use-libraries --verbose"
+echo '1:本地验证（pod lib lint)；2:远程验证(pod spec lint);3:提交到远程仓库(pod repo push) 4:提交到远程公共仓库：pod trunk push'
 	read aNum
 	case $aNum in
 	1)  commond="pod lib lint $1 $podParams"
@@ -24,6 +24,10 @@ do
 		echo $commond
 		$commond
 	break;;
+    4) commond="pod trunk push --allow-warnings --use-libraries --verbose"
+        echo $commond
+        $commond
+    break;;
 	*) echo '没有找到你想操作的命令'
 	 	continue
 	 	;;
@@ -81,7 +85,7 @@ done
 funcWithPod
 
 
-podStorage="THLabSpec"
+podStorage="Specs"
 funWithPod $path $podStorage
 
 
