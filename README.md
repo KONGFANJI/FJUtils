@@ -1,5 +1,5 @@
 # FJUtils
 公共方法，方便以后调用
 
-#支持pod
+# 支持
 pod 'FJUtils'
