@@ -126,8 +126,8 @@
 		8E0102E720E3C13E008EFFA6 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				8E0102E820E3C13E008EFFA6 /* StoryboardUtils.m */,
 				8E0102E920E3C13E008EFFA6 /* StoryboardUtils.h */,
+				8E0102E820E3C13E008EFFA6 /* StoryboardUtils.m */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -135,15 +135,15 @@
 		8E0102EA20E3C13E008EFFA6 /* FJPublicTools */ = {
 			isa = PBXGroup;
 			children = (
-				8E0102EB20E3C13E008EFFA6 /* FJPublicTools.h */,
-				8E0102EC20E3C13E008EFFA6 /* FJPublicHelper.m */,
-				8E0102ED20E3C13E008EFFA6 /* FJAppInfoUtils.h */,
-				8E0102EE20E3C13E008EFFA6 /* FJFileCleanCache.h */,
-				8E0102EF20E3C13E008EFFA6 /* FJPublicHelper.h */,
 				8E0102F020E3C13E008EFFA6 /* DAAppsViewController */,
+				8E0102ED20E3C13E008EFFA6 /* FJAppInfoUtils.h */,
 				8E0102F820E3C13E008EFFA6 /* FJAppInfoUtils.m */,
-				8E0102F920E3C13E008EFFA6 /* FJRouter */,
+				8E0102EE20E3C13E008EFFA6 /* FJFileCleanCache.h */,
 				8E0102FC20E3C13E008EFFA6 /* FJFileCleanCache.m */,
+				8E0102EF20E3C13E008EFFA6 /* FJPublicHelper.h */,
+				8E0102EC20E3C13E008EFFA6 /* FJPublicHelper.m */,
+				8E0102EB20E3C13E008EFFA6 /* FJPublicTools.h */,
+				8E0102F920E3C13E008EFFA6 /* FJRouter */,
 				8E0102FD20E3C13E008EFFA6 /* Info.plist */,
 			);
 			path = FJPublicTools;
@@ -152,12 +152,12 @@
 		8E0102F020E3C13E008EFFA6 /* DAAppsViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8E0102F620E3C13E008EFFA6 /* DAAppsViewController.bundle */,
 				8E0102F120E3C13E008EFFA6 /* DAAppObject.h */,
-				8E0102F220E3C13E008EFFA6 /* DAAppsViewController.m */,
-				8E0102F320E3C13E008EFFA6 /* DAAppViewCell.h */,
 				8E0102F420E3C13E008EFFA6 /* DAAppObject.m */,
 				8E0102F520E3C13E008EFFA6 /* DAAppsViewController.h */,
-				8E0102F620E3C13E008EFFA6 /* DAAppsViewController.bundle */,
+				8E0102F220E3C13E008EFFA6 /* DAAppsViewController.m */,
+				8E0102F320E3C13E008EFFA6 /* DAAppViewCell.h */,
 				8E0102F720E3C13E008EFFA6 /* DAAppViewCell.m */,
 			);
 			path = DAAppsViewController;

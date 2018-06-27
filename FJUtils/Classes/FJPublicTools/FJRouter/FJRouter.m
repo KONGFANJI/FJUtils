@@ -20,7 +20,7 @@ NSString *const FJRouterValue1Key = @"FJRouterValue1Key";
     
     return store;
 }
-- (void)FJRouterFromVC:(UIViewController *)fromVC toVC:(NSString *)toVC SBName:(NSString *)SBName withParameter:(NSDictionary *)parameter way:(MODALTYPE)way isHideBottom:(BOOL)isHide animated:(BOOL)animated{
+- (UIViewController *)FJRouterFromVC:(UIViewController *)fromVC toVC:(NSString *)toVC SBName:(NSString *)SBName withParameter:(NSDictionary *)parameter way:(MODALTYPE)way isHideBottom:(BOOL)isHide animated:(BOOL)animated{
     UIViewController *VC;
     
     if (SBName) {
@@ -60,6 +60,7 @@ NSString *const FJRouterValue1Key = @"FJRouterValue1Key";
     
     _value1 = nil;
     
+    return vc;
 }
 
 
