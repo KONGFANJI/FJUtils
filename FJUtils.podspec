@@ -1,6 +1,6 @@
 Pod::Spec.new do |s| 
 s.name = "FJUtils" # 名称 （同工程名，写错了就用不了了）
-s.version = "0.0.6" # 代码库的版本
+s.version = "0.0.7" # 代码库的版本
 s.summary = "公共方法" # 简介
 s.description = "公共方法，方便以后调用" # 描述
 s.homepage = "https://github.com/KONGFANJI" # 开发者主页
@@ -17,13 +17,14 @@ ss.source_files = 'FJUtils/Classes/Storyboard/*.*'
 end
 
 
+s.resources = 'FJUtils/Classes/FJPublicTools/DAAppsViewController/DAAppsViewController.bundle'
+
 s.subspec 'FJPublicTools' do |ss|
 ss.source_files =
 'FJUtils/Classes/FJPublicTools/*.*',
 'FJUtils/Classes/FJPublicTools/DAAppsViewController/*.*',
 'FJUtils/Classes/FJPublicTools/FJRouter/*.*'
 
-ss.resources = 'FJUtils/Classes/FJPublicTools/DAAppsViewController/DAAppsViewController.bundle'
 end
 
 
