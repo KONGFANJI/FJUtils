@@ -60,7 +60,7 @@ NSString *const FJRouterValue1Key = @"FJRouterValue1Key";
     
     _value1 = nil;
     
-    return vc;
+    return VC;
 }
 
 
