@@ -25,7 +25,7 @@ ss.source_files =
 'FJUtils/Classes/FJPublicTools/*.*',
 'FJUtils/Classes/FJPublicTools/DAAppsViewController/*.*',
 'FJUtils/Classes/FJPublicTools/FJRouter/*.*'
-ss.resource = 'FJUtils/Classes/FJPublicTools/DAAppsViewController/DAAppsViewController.bundle'
+ss.resources = 'FJUtils/Classes/FJPublicTools/DAAppsViewController/DAAppsViewController.bundle'
 end
 
 s.frameworks = "Foundation","UIKit"
