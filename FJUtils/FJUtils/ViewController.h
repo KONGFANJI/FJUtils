@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  FJUtils
+//  FJPublicToolsDemo
 //
-//  Created by KFJ on 2018/6/25.
-//  Copyright © 2018年 KFJ. All rights reserved.
+//  Created by XY on 2017/3/17.
+//  Copyright © 2017年 KFJ. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -10,6 +10,7 @@
 #define FJUtils_h
 
 #import "StoryboardUtils.h"
+#import "FJPublicTools.h"
 
 
 #endif /* FJUtils_h */
