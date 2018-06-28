@@ -29,7 +29,8 @@ end
 s.subspec 'Toast' do |ss|
 ss.source_files = 'FJUtils/Classes/Toast/*.*'
 
-ss.dependency = 'MBProgressHUD'
+ss.dependency 'MBProgressHUD'
+
 end
 
 
