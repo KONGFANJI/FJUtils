@@ -27,20 +27,18 @@ s.resources = 'FJUtils/Classes/FJPublicTools/DAAppsViewController/DAAppsViewCont
 end
 
 s.subspec 'Toast' do |ss|
-ss.source_files =
-'FJUtils/Classes/Toast/*.*',
+ss.source_files = 'FJUtils/Classes/Toast/*.*'
+
 ss.dependency = 'MBProgressHUD'
 end
 
 
 s.subspec 'GTUtils' do |ss|
-ss.source_files =
-'FJUtils/Classes/GTUtils/*.*',
+ss.source_files = 'FJUtils/Classes/GTUtils/*.*'
 end
 
 s.subspec 'FileUtils' do |ss|
-ss.source_files =
-'FJUtils/Classes/FileUtils/*.*',
+ss.source_files = 'FJUtils/Classes/FileUtils/*.*'
 end
 
 
