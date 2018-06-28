@@ -1,6 +1,6 @@
 Pod::Spec.new do |s| 
 s.name = "FJUtils" # 名称 （同工程名，写错了就用不了了）
-s.version = "0.0.9" # 代码库的版本
+s.version = "0.1.0" # 代码库的版本
 s.summary = "公共方法" # 简介
 s.description = "公共方法，方便以后调用" # 描述
 s.homepage = "https://github.com/KONGFANJI" # 开发者主页
@@ -17,19 +17,34 @@ ss.source_files = 'FJUtils/Classes/Storyboard/*.*'
 end
 
 
-s.resources = 'FJUtils/Classes/FJPublicTools/DAAppsViewController/DAAppsViewController.bundle'
-
 s.subspec 'FJPublicTools' do |ss|
 ss.source_files =
 'FJUtils/Classes/FJPublicTools/*.*',
 'FJUtils/Classes/FJPublicTools/DAAppsViewController/*.*',
 'FJUtils/Classes/FJPublicTools/FJRouter/*.*'
+s.resources = 'FJUtils/Classes/FJPublicTools/DAAppsViewController/DAAppsViewController.bundle'
 
 end
 
+s.subspec 'Toast' do |ss|
+ss.source_files =
+'FJUtils/Classes/Toast/*.*',
+ss.dependency = 'MBProgressHUD'
+end
 
 
-s.frameworks = "Foundation","UIKit"
+s.subspec 'GTUtils' do |ss|
+ss.source_files =
+'FJUtils/Classes/GTUtils/*.*',
+end
+
+s.subspec 'FileUtils' do |ss|
+ss.source_files =
+'FJUtils/Classes/FileUtils/*.*',
+end
+
+
+s.frameworks = "Foundation","UIKit","CoreGraphics"
 s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO'}   # 编译flag
 #s.libraries = 'libicucore' #依赖第三方库文件。（libicucore.tbd文件为系统定义的库文件，直接使用该命令导入无效，仍需手动在Xcode中导入，原因待查）
 s.static_framework  =  true

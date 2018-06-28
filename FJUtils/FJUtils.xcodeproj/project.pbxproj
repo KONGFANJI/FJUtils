@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DA710A7EF6607C9E24AC68C /* libPods-FJUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C885EFFD536C6FBE2D1DF3 /* libPods-FJUtils.a */; };
 		8E0102FF20E3C13E008EFFA6 /* StoryboardUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0102E820E3C13E008EFFA6 /* StoryboardUtils.m */; };
 		8E01030020E3C13E008EFFA6 /* FJPublicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0102EC20E3C13E008EFFA6 /* FJPublicHelper.m */; };
 		8E01030120E3C13F008EFFA6 /* DAAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0102F220E3C13E008EFFA6 /* DAAppsViewController.m */; };
@@ -27,6 +28,13 @@
 		8E18772520E113840083A941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E18772420E113840083A941 /* Assets.xcassets */; };
 		8E18772820E113840083A941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E18772620E113840083A941 /* LaunchScreen.storyboard */; };
 		8E18772B20E113840083A941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E18772A20E113840083A941 /* main.m */; };
+		8E9F1CD120E46E25002C4A0D /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CCE20E46E25002C4A0D /* Alert.m */; };
+		8E9F1CD220E46E25002C4A0D /* UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CCF20E46E25002C4A0D /* UIViewUtils.m */; };
+		8E9F1CD620E4721F002C4A0D /* GTFixSizeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CD520E4721F002C4A0D /* GTFixSizeUtils.m */; };
+		8E9F1CD820E4736B002C4A0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9F1CD720E4736B002C4A0D /* UIKit.framework */; };
+		8E9F1CDB20E47381002C4A0D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9F1CD920E47381002C4A0D /* CoreFoundation.framework */; };
+		8E9F1CDC20E47381002C4A0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9F1CDA20E47381002C4A0D /* Foundation.framework */; };
+		8E9F1CE020E47630002C4A0D /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CDF20E47630002C4A0D /* FileUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61795FA9E3BCF98A35EF840D /* Pods-FJUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-FJUtils/Pods-FJUtils.release.xcconfig"; sourceTree = "<group>"; };
 		8E0102E820E3C13E008EFFA6 /* StoryboardUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardUtils.m; sourceTree = "<group>"; };
 		8E0102E920E3C13E008EFFA6 /* StoryboardUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardUtils.h; sourceTree = "<group>"; };
 		8E0102EB20E3C13E008EFFA6 /* FJPublicTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJPublicTools.h; sourceTree = "<group>"; };
@@ -86,6 +95,19 @@
 		8E18772A20E113840083A941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E18773020E113840083A941 /* FJUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E18773B20E113840083A941 /* FJUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9F1CCD20E46E25002C4A0D /* UIViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewUtils.h; sourceTree = "<group>"; };
+		8E9F1CCE20E46E25002C4A0D /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+		8E9F1CCF20E46E25002C4A0D /* UIViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUtils.m; sourceTree = "<group>"; };
+		8E9F1CD020E46E25002C4A0D /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		8E9F1CD420E4721F002C4A0D /* GTFixSizeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFixSizeUtils.h; sourceTree = "<group>"; };
+		8E9F1CD520E4721F002C4A0D /* GTFixSizeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFixSizeUtils.m; sourceTree = "<group>"; };
+		8E9F1CD720E4736B002C4A0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E9F1CD920E47381002C4A0D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8E9F1CDA20E47381002C4A0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E9F1CDE20E47630002C4A0D /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		8E9F1CDF20E47630002C4A0D /* FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtils.m; sourceTree = "<group>"; };
+		A5C885EFFD536C6FBE2D1DF3 /* libPods-FJUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0CB305C4FAD71630298EA1 /* Pods-FJUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FJUtils/Pods-FJUtils.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +115,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9F1CDB20E47381002C4A0D /* CoreFoundation.framework in Frameworks */,
+				8E9F1CDC20E47381002C4A0D /* Foundation.framework in Frameworks */,
+				8E9F1CD820E4736B002C4A0D /* UIKit.framework in Frameworks */,
+				1DA710A7EF6607C9E24AC68C /* libPods-FJUtils.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +142,9 @@
 		8E0102E620E3C13E008EFFA6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8E9F1CDD20E47630002C4A0D /* FileUtils */,
+				8E9F1CD320E4721F002C4A0D /* GTUtils */,
+				8E9F1CCC20E46E25002C4A0D /* Toast */,
 				8E0102E720E3C13E008EFFA6 /* Storyboard */,
 				8E0102EA20E3C13E008EFFA6 /* FJPublicTools */,
 				8E0102FE20E3C13E008EFFA6 /* FJUtils.h */,
@@ -177,6 +206,8 @@
 			children = (
 				8E18771A20E113810083A941 /* FJUtils */,
 				8E18771920E113810083A941 /* Products */,
+				AC9C26BE4CB1F9A48BD29302 /* Pods */,
+				ABD0D7F71FAD7D4E65106173 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +245,55 @@
 			path = FJUtils;
 			sourceTree = "<group>";
 		};
+		8E9F1CCC20E46E25002C4A0D /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				8E9F1CD020E46E25002C4A0D /* Alert.h */,
+				8E9F1CCE20E46E25002C4A0D /* Alert.m */,
+				8E9F1CCD20E46E25002C4A0D /* UIViewUtils.h */,
+				8E9F1CCF20E46E25002C4A0D /* UIViewUtils.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		8E9F1CD320E4721F002C4A0D /* GTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8E9F1CD420E4721F002C4A0D /* GTFixSizeUtils.h */,
+				8E9F1CD520E4721F002C4A0D /* GTFixSizeUtils.m */,
+			);
+			path = GTUtils;
+			sourceTree = "<group>";
+		};
+		8E9F1CDD20E47630002C4A0D /* FileUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8E9F1CDE20E47630002C4A0D /* FileUtils.h */,
+				8E9F1CDF20E47630002C4A0D /* FileUtils.m */,
+			);
+			path = FileUtils;
+			sourceTree = "<group>";
+		};
+		ABD0D7F71FAD7D4E65106173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E9F1CD920E47381002C4A0D /* CoreFoundation.framework */,
+				8E9F1CDA20E47381002C4A0D /* Foundation.framework */,
+				8E9F1CD720E4736B002C4A0D /* UIKit.framework */,
+				A5C885EFFD536C6FBE2D1DF3 /* libPods-FJUtils.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC9C26BE4CB1F9A48BD29302 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF0CB305C4FAD71630298EA1 /* Pods-FJUtils.debug.xcconfig */,
+				61795FA9E3BCF98A35EF840D /* Pods-FJUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E18774420E113840083A941 /* Build configuration list for PBXNativeTarget "FJUtils" */;
 			buildPhases = (
+				12C2757574B401344FB77BBA /* [CP] Check Pods Manifest.lock */,
 				8E18771420E113810083A941 /* Sources */,
 				8E18771520E113810083A941 /* Frameworks */,
 				8E18771620E113810083A941 /* Resources */,
@@ -343,6 +424,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12C2757574B401344FB77BBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FJUtils-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E18771420E113810083A941 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -350,17 +452,21 @@
 			files = (
 				8E01030420E3C13F008EFFA6 /* DAAppViewCell.m in Sources */,
 				8E01030520E3C13F008EFFA6 /* FJAppInfoUtils.m in Sources */,
+				8E9F1CD220E46E25002C4A0D /* UIViewUtils.m in Sources */,
 				8E18772B20E113840083A941 /* main.m in Sources */,
 				8E01030620E3C13F008EFFA6 /* FJRouter.m in Sources */,
+				8E9F1CD120E46E25002C4A0D /* Alert.m in Sources */,
 				8E0102FF20E3C13E008EFFA6 /* StoryboardUtils.m in Sources */,
 				8E01031220E3C1BC008EFFA6 /* ViewController.m in Sources */,
 				8E01031420E3C1BC008EFFA6 /* TestViewController.m in Sources */,
+				8E9F1CD620E4721F002C4A0D /* GTFixSizeUtils.m in Sources */,
 				8E01030020E3C13E008EFFA6 /* FJPublicHelper.m in Sources */,
 				8E01030720E3C13F008EFFA6 /* FJFileCleanCache.m in Sources */,
 				8E18771D20E113810083A941 /* AppDelegate.m in Sources */,
 				8E01031620E3C1BC008EFFA6 /* FunctionHelper.m in Sources */,
 				8E01030120E3C13F008EFFA6 /* DAAppsViewController.m in Sources */,
 				8E01030220E3C13F008EFFA6 /* DAAppObject.m in Sources */,
+				8E9F1CE020E47630002C4A0D /* FileUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +631,7 @@
 		};
 		8E18774520E113840083A941 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0CB305C4FAD71630298EA1 /* Pods-FJUtils.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +641,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = KONGFANJI.FJUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -542,6 +650,7 @@
 		};
 		8E18774620E113840083A941 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61795FA9E3BCF98A35EF840D /* Pods-FJUtils.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +660,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = KONGFANJI.FJUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

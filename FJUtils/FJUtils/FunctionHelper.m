@@ -7,8 +7,10 @@
 //
 
 #import "FunctionHelper.h"
-#import "FJPublicTools.h"
 #import "AppID.h"
+#import "FJUtils.h"
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 #define FJInstance   [FJPublicHelper shareInstance]
 
@@ -59,6 +61,23 @@
             if ([[UIApplication sharedApplication] canOpenURL:url]) {
                 [[UIApplication sharedApplication] openURL:url];
             }
+        }
+            break;
+        case STORYBOARD:
+        {
+            UIViewController *VC = [StoryboardUtils viewControllerWithStoryboardName:@"Main" andViewControlleridentifier:@"TestViewController"];
+            [vc.navigationController pushViewController:VC animated:YES];
+        }
+            break;
+        case UIVIEWUTILS:
+        {
+            [UIViewUtils showMessage:@"测试！！！"];
+        }
+            break;
+            
+        case GTUTILS:
+        {
+//            vc.view.frame = CGRectMake(0, 0, 200 * GTNewScale(), 300 * GTNewScale());
         }
             break;
         default:

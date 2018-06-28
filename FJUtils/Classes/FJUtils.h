@@ -11,6 +11,7 @@
 
 #import "StoryboardUtils.h"
 #import "FJPublicTools.h"
-
+#import "UIViewUtils.h"
+#import "GTFixSizeUtils.h"
 
 #endif /* FJUtils_h */

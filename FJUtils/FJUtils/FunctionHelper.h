@@ -17,7 +17,11 @@ typedef NS_ENUM(NSInteger,funcID) {
     EXPORT,
     CLEARCHACHE,
     ROUTER,
-    COMMENT
+    COMMENT,
+    STORYBOARD,
+    UIVIEWUTILS,
+    GTUTILS,
+    FILEUTILS
 };
 
 @interface FunctionHelper : NSObject
