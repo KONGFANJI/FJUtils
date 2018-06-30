@@ -35,6 +35,5 @@
 #import "UIView+BorderRadius.h"
 #import "UIView+Rect.h"
 #import "UIView+Screenshot.h"
-#import "UIView+Toast.h"
 
 #endif /* CategoryContainer_h */
