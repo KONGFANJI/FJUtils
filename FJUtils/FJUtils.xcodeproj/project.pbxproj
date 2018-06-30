@@ -47,6 +47,7 @@
 		8E2B68E220E726B200A0E820 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68C420E726B200A0E820 /* NSString+Utility.m */; };
 		8E2B68E420E726B200A0E820 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68C820E726B200A0E820 /* NSString+URLEncode.m */; };
 		8E2B68E520E726B200A0E820 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68CE20E726B200A0E820 /* UITabBar+badge.m */; };
+		8E2B68EB20E7308B00A0E820 /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68E920E7308B00A0E820 /* IconButton.m */; };
 		8E9F1CD120E46E25002C4A0D /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CCE20E46E25002C4A0D /* Alert.m */; };
 		8E9F1CD220E46E25002C4A0D /* UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CCF20E46E25002C4A0D /* UIViewUtils.m */; };
 		8E9F1CD620E4721F002C4A0D /* GTFixSizeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CD520E4721F002C4A0D /* GTFixSizeUtils.m */; };
@@ -152,6 +153,8 @@
 		8E2B68CD20E726B200A0E820 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
 		8E2B68CE20E726B200A0E820 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
 		8E2B68E620E726CC00A0E820 /* CategoryContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryContainer.h; sourceTree = "<group>"; };
+		8E2B68E920E7308B00A0E820 /* IconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconButton.m; sourceTree = "<group>"; };
+		8E2B68EA20E7308B00A0E820 /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
 		8E9F1CCD20E46E25002C4A0D /* UIViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewUtils.h; sourceTree = "<group>"; };
 		8E9F1CCE20E46E25002C4A0D /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
 		8E9F1CCF20E46E25002C4A0D /* UIViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUtils.m; sourceTree = "<group>"; };
@@ -199,10 +202,11 @@
 		8E0102E620E3C13E008EFFA6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8E0102FE20E3C13E008EFFA6 /* FJUtils.h */,
 				8E2B689620E726B200A0E820 /* Category */,
+				8E2B68E720E7308B00A0E820 /* CustomeView */,
 				8E9F1CDD20E47630002C4A0D /* FileUtils */,
 				8E0102EA20E3C13E008EFFA6 /* FJPublicTools */,
+				8E0102FE20E3C13E008EFFA6 /* FJUtils.h */,
 				8E9F1CD320E4721F002C4A0D /* GTUtils */,
 				8E0102E720E3C13E008EFFA6 /* Storyboard */,
 				8E9F1CCC20E46E25002C4A0D /* Toast */,
@@ -420,6 +424,23 @@
 			path = UITabBar;
 			sourceTree = "<group>";
 		};
+		8E2B68E720E7308B00A0E820 /* CustomeView */ = {
+			isa = PBXGroup;
+			children = (
+				8E2B68E820E7308B00A0E820 /* IconButton */,
+			);
+			path = CustomeView;
+			sourceTree = "<group>";
+		};
+		8E2B68E820E7308B00A0E820 /* IconButton */ = {
+			isa = PBXGroup;
+			children = (
+				8E2B68EA20E7308B00A0E820 /* IconButton.h */,
+				8E2B68E920E7308B00A0E820 /* IconButton.m */,
+			);
+			path = IconButton;
+			sourceTree = "<group>";
+		};
 		8E9F1CCC20E46E25002C4A0D /* Toast */ = {
 			isa = PBXGroup;
 			children = (
@@ -628,6 +649,7 @@
 				8E2B68E120E726B200A0E820 /* NSString+Base64.m in Sources */,
 				8E01030420E3C13F008EFFA6 /* DAAppViewCell.m in Sources */,
 				8E01030520E3C13F008EFFA6 /* FJAppInfoUtils.m in Sources */,
+				8E2B68EB20E7308B00A0E820 /* IconButton.m in Sources */,
 				8E2B68D020E726B200A0E820 /* UIImage+ImageEffects.m in Sources */,
 				8E2B68D120E726B200A0E820 /* UIImage+FEBoxBlur.m in Sources */,
 				8E2B68DB20E726B200A0E820 /* UIView+Screenshot.m in Sources */,
