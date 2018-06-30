@@ -13,5 +13,6 @@
 #import "FJPublicTools.h"
 #import "UIViewUtils.h"
 #import "GTFixSizeUtils.h"
+#import "CategoryContainer.h"
 
 #endif /* FJUtils_h */
