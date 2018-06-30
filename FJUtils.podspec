@@ -49,7 +49,7 @@ end
 
 s.subspec 'CustomeView' do |ss|
 ss.source_files = 'FJUtils/Classes/CustomeView/IconButton/*.*'
-ss.dependency 'Category'
+ss.dependency 'FJUtils/Category'
 end
 
 s.frameworks = "Foundation","UIKit","CoreGraphics"
