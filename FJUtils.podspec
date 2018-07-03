@@ -48,7 +48,7 @@ ss.frameworks = "Foundation","UIKit","CoreGraphics"
 end
 
 s.subspec 'CustomeView' do |ss|
-ss.source_files = 'FJUtils/Classes/CustomeView/IconButton/*.*',FJUtils/Classes/CustomeView/CountDownButton/*.*
+ss.source_files = 'FJUtils/Classes/CustomeView/IconButton/*.*','FJUtils/Classes/CustomeView/CountDownButton/*.*'
 ss.dependency 'FJUtils/Category'
 end
 
