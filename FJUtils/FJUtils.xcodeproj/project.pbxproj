@@ -48,6 +48,7 @@
 		8E2B68E420E726B200A0E820 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68C820E726B200A0E820 /* NSString+URLEncode.m */; };
 		8E2B68E520E726B200A0E820 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68CE20E726B200A0E820 /* UITabBar+badge.m */; };
 		8E2B68EB20E7308B00A0E820 /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68E920E7308B00A0E820 /* IconButton.m */; };
+		8E2B699220EB919300A0E820 /* CountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B699020EB919300A0E820 /* CountDownButton.m */; };
 		8E9F1CD120E46E25002C4A0D /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CCE20E46E25002C4A0D /* Alert.m */; };
 		8E9F1CD220E46E25002C4A0D /* UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CCF20E46E25002C4A0D /* UIViewUtils.m */; };
 		8E9F1CD620E4721F002C4A0D /* GTFixSizeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F1CD520E4721F002C4A0D /* GTFixSizeUtils.m */; };
@@ -155,6 +156,8 @@
 		8E2B68E620E726CC00A0E820 /* CategoryContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryContainer.h; sourceTree = "<group>"; };
 		8E2B68E920E7308B00A0E820 /* IconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconButton.m; sourceTree = "<group>"; };
 		8E2B68EA20E7308B00A0E820 /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
+		8E2B699020EB919300A0E820 /* CountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownButton.m; sourceTree = "<group>"; };
+		8E2B699120EB919300A0E820 /* CountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownButton.h; sourceTree = "<group>"; };
 		8E9F1CCD20E46E25002C4A0D /* UIViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewUtils.h; sourceTree = "<group>"; };
 		8E9F1CCE20E46E25002C4A0D /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
 		8E9F1CCF20E46E25002C4A0D /* UIViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUtils.m; sourceTree = "<group>"; };
@@ -427,6 +430,7 @@
 		8E2B68E720E7308B00A0E820 /* CustomeView */ = {
 			isa = PBXGroup;
 			children = (
+				8E2B698F20EB919300A0E820 /* CountDownButton */,
 				8E2B68E820E7308B00A0E820 /* IconButton */,
 			);
 			path = CustomeView;
@@ -439,6 +443,15 @@
 				8E2B68E920E7308B00A0E820 /* IconButton.m */,
 			);
 			path = IconButton;
+			sourceTree = "<group>";
+		};
+		8E2B698F20EB919300A0E820 /* CountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				8E2B699120EB919300A0E820 /* CountDownButton.h */,
+				8E2B699020EB919300A0E820 /* CountDownButton.m */,
+			);
+			path = CountDownButton;
 			sourceTree = "<group>";
 		};
 		8E9F1CCC20E46E25002C4A0D /* Toast */ = {
@@ -675,6 +688,7 @@
 				8E18771D20E113810083A941 /* AppDelegate.m in Sources */,
 				8E2B68D420E726B200A0E820 /* NSDictionary+Safe.m in Sources */,
 				8E01031620E3C1BC008EFFA6 /* FunctionHelper.m in Sources */,
+				8E2B699220EB919300A0E820 /* CountDownButton.m in Sources */,
 				8E01030120E3C13F008EFFA6 /* DAAppsViewController.m in Sources */,
 				8E2B68E420E726B200A0E820 /* NSString+URLEncode.m in Sources */,
 				8E2B68E020E726B200A0E820 /* NSString+Hash.m in Sources */,
