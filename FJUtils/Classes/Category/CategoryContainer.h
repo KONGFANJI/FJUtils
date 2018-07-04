@@ -36,4 +36,9 @@
 #import "UIView+Rect.h"
 #import "UIView+Screenshot.h"
 
+#import "UIResponder+Router.h"
+
+#import "NSDate+Category.h"
+#import "NSDateFormatter+Category.h"
+
 #endif /* CategoryContainer_h */
