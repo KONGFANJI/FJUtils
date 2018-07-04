@@ -1,6 +1,6 @@
 Pod::Spec.new do |s| 
 s.name = "FJUtils" # 名称 （同工程名，写错了就用不了了）
-s.version = "0.1.7" # 代码库的版本
+s.version = "0.1.8" # 代码库的版本
 s.summary = "公共方法" # 简介
 s.description = "公共方法，方便以后调用" # 描述
 s.homepage = "https://github.com/KONGFANJI" # 开发者主页
@@ -43,7 +43,7 @@ ss.source_files = 'FJUtils/Classes/FileUtils/*.*'
 end
 
 s.subspec 'Category' do |ss|
-ss.source_files = 'FJUtils/Classes/Category/CategoryContainer.h','FJUtils/Classes/Category/Foundation/*.{h,m}','FJUtils/Classes/Category/NSError/*.{h,m}','FJUtils/Classes/Category/NSString/*.{h,m}','FJUtils/Classes/Category/Safe/*.{h,m}','FJUtils/Classes/Category/UIColor/*.{h,m}','FJUtils/Classes/Category/UILabel/*.{h,m}','FJUtils/Classes/Category/UIImage/*.{h,m}','FJUtils/Classes/Category/UITabBar/*.{h,m}','FJUtils/Classes/Category/UIView/*.{h,m},'FJUtils/Classes/Category/NSDate/*.{h,m},'FJUtils/Classes/Category/UIResponder/*.{h,m}'
+ss.source_files = 'FJUtils/Classes/Category/CategoryContainer.h','FJUtils/Classes/Category/Foundation/*.{h,m}','FJUtils/Classes/Category/NSError/*.{h,m}','FJUtils/Classes/Category/NSString/*.{h,m}','FJUtils/Classes/Category/Safe/*.{h,m}','FJUtils/Classes/Category/UIColor/*.{h,m}','FJUtils/Classes/Category/UILabel/*.{h,m}','FJUtils/Classes/Category/UIImage/*.{h,m}','FJUtils/Classes/Category/UITabBar/*.{h,m}','FJUtils/Classes/Category/UIView/*.{h,m}','FJUtils/Classes/Category/NSDate/*.{h,m}','FJUtils/Classes/Category/UIResponder/*.{h,m}'
 ss.frameworks = "Foundation","UIKit","CoreGraphics"
 end
 
