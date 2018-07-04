@@ -43,7 +43,7 @@ ss.source_files = 'FJUtils/Classes/FileUtils/*.*'
 end
 
 s.subspec 'Category' do |ss|
-ss.source_files = 'FJUtils/Classes/Category/CategoryContainer.h','FJUtils/Classes/Category/Foundation/*.{h,m}','FJUtils/Classes/Category/NSError/*.{h,m}','FJUtils/Classes/Category/NSString/*.{h,m}','FJUtils/Classes/Category/Safe/*.{h,m}','FJUtils/Classes/Category/UIColor/*.{h,m}','FJUtils/Classes/Category/UILabel/*.{h,m}','FJUtils/Classes/Category/UIImage/*.{h,m}','FJUtils/Classes/Category/UITabBar/*.{h,m}','FJUtils/Classes/Category/UIView/*.{h,m},'FJUtils/Classes/Category/NSDate/*.{h,m},'FJUtils/Classes/Category/UIResponder/*.{h,m}'
+ss.source_files = 'FJUtils/Classes/Category/CategoryContainer.h','FJUtils/Classes/Category/Foundation/*.{h,m}','FJUtils/Classes/Category/NSError/*.{h,m}','FJUtils/Classes/Category/NSString/*.{h,m}','FJUtils/Classes/Category/Safe/*.{h,m}','FJUtils/Classes/Category/UIColor/*.{h,m}','FJUtils/Classes/Category/UILabel/*.{h,m}','FJUtils/Classes/Category/UIImage/*.{h,m}','FJUtils/Classes/Category/UITabBar/*.{h,m}','FJUtils/Classes/Category/UIView/*.{h,m}','FJUtils/Classes/Category/NSDate/*.{h,m}','FJUtils/Classes/Category/UIResponder/*.{h,m}'
 ss.frameworks = "Foundation","UIKit","CoreGraphics"
 end
 
