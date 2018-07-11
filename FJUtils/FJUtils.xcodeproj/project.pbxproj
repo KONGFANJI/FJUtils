@@ -49,6 +49,10 @@
 		8E2B68E520E726B200A0E820 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68CE20E726B200A0E820 /* UITabBar+badge.m */; };
 		8E2B68EB20E7308B00A0E820 /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68E920E7308B00A0E820 /* IconButton.m */; };
 		8E2B699220EB919300A0E820 /* CountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B699020EB919300A0E820 /* CountDownButton.m */; };
+		8E5F863E20F66C9400A772F4 /* UIButton+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F863B20F66C9300A772F4 /* UIButton+Attributes.m */; };
+		8E5F863F20F66C9400A772F4 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F863C20F66C9300A772F4 /* UIButton+ImageTitleSpacing.m */; };
+		8E5F864220F66CA300A772F4 /* UIImage+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F864020F66CA300A772F4 /* UIImage+Radius.m */; };
+		8E5F864520F66CB100A772F4 /* XibUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F864320F66CB000A772F4 /* XibUtils.m */; };
 		8E8076FA20EC57D600FC08AD /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8076F320EC57D600FC08AD /* NSDate+Category.m */; };
 		8E8076FB20EC57D600FC08AD /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8076F620EC57D600FC08AD /* NSDateFormatter+Category.m */; };
 		8E8076FC20EC57D600FC08AD /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8076F920EC57D600FC08AD /* UIResponder+Router.m */; };
@@ -161,6 +165,14 @@
 		8E2B68EA20E7308B00A0E820 /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
 		8E2B699020EB919300A0E820 /* CountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownButton.m; sourceTree = "<group>"; };
 		8E2B699120EB919300A0E820 /* CountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownButton.h; sourceTree = "<group>"; };
+		8E5F863A20F66C9300A772F4 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		8E5F863B20F66C9300A772F4 /* UIButton+Attributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Attributes.m"; sourceTree = "<group>"; };
+		8E5F863C20F66C9300A772F4 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		8E5F863D20F66C9300A772F4 /* UIButton+Attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Attributes.h"; sourceTree = "<group>"; };
+		8E5F864020F66CA300A772F4 /* UIImage+Radius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Radius.m"; sourceTree = "<group>"; };
+		8E5F864120F66CA300A772F4 /* UIImage+Radius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Radius.h"; sourceTree = "<group>"; };
+		8E5F864320F66CB000A772F4 /* XibUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibUtils.m; sourceTree = "<group>"; };
+		8E5F864420F66CB000A772F4 /* XibUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibUtils.h; sourceTree = "<group>"; };
 		8E8076F320EC57D600FC08AD /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
 		8E8076F420EC57D600FC08AD /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
 		8E8076F520EC57D600FC08AD /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
@@ -229,6 +241,8 @@
 		8E0102E720E3C13E008EFFA6 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				8E5F864420F66CB000A772F4 /* XibUtils.h */,
+				8E5F864320F66CB000A772F4 /* XibUtils.m */,
 				8E0102E920E3C13E008EFFA6 /* StoryboardUtils.h */,
 				8E0102E820E3C13E008EFFA6 /* StoryboardUtils.m */,
 			);
@@ -323,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2B68E620E726CC00A0E820 /* CategoryContainer.h */,
+				8E5F863920F66C9300A772F4 /* UIButton */,
 				8E8076F220EC57D600FC08AD /* NSDate */,
 				8E8076F720EC57D600FC08AD /* UIResponder */,
 				8E2B68BC20E726B200A0E820 /* Foundation */,
@@ -341,6 +356,8 @@
 		8E2B689720E726B200A0E820 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				8E5F864120F66CA300A772F4 /* UIImage+Radius.h */,
+				8E5F864020F66CA300A772F4 /* UIImage+Radius.m */,
 				8E2B689B20E726B200A0E820 /* UIImage+FEBoxBlur.h */,
 				8E2B689E20E726B200A0E820 /* UIImage+FEBoxBlur.m */,
 				8E2B689920E726B200A0E820 /* UIImage+ImageEffects.h */,
@@ -463,6 +480,17 @@
 				8E2B699020EB919300A0E820 /* CountDownButton.m */,
 			);
 			path = CountDownButton;
+			sourceTree = "<group>";
+		};
+		8E5F863920F66C9300A772F4 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F863D20F66C9300A772F4 /* UIButton+Attributes.h */,
+				8E5F863B20F66C9300A772F4 /* UIButton+Attributes.m */,
+				8E5F863A20F66C9300A772F4 /* UIButton+ImageTitleSpacing.h */,
+				8E5F863C20F66C9300A772F4 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		8E8076F220EC57D600FC08AD /* NSDate */ = {
@@ -708,21 +736,25 @@
 				8E01030620E3C13F008EFFA6 /* FJRouter.m in Sources */,
 				8E2B68E220E726B200A0E820 /* NSString+Utility.m in Sources */,
 				8E9F1CD120E46E25002C4A0D /* Alert.m in Sources */,
+				8E5F863F20F66C9400A772F4 /* UIButton+ImageTitleSpacing.m in Sources */,
 				8E8076FB20EC57D600FC08AD /* NSDateFormatter+Category.m in Sources */,
 				8E2B68D920E726B200A0E820 /* UIView+Rect.m in Sources */,
 				8E0102FF20E3C13E008EFFA6 /* StoryboardUtils.m in Sources */,
 				8E2B68D820E726B200A0E820 /* UILabel+Utility.m in Sources */,
 				8E01031220E3C1BC008EFFA6 /* ViewController.m in Sources */,
 				8E01031420E3C1BC008EFFA6 /* TestViewController.m in Sources */,
+				8E5F863E20F66C9400A772F4 /* UIButton+Attributes.m in Sources */,
 				8E9F1CD620E4721F002C4A0D /* GTFixSizeUtils.m in Sources */,
 				8E2B68DF20E726B200A0E820 /* NSError+Helper.m in Sources */,
 				8E01030020E3C13E008EFFA6 /* FJPublicHelper.m in Sources */,
 				8E01030720E3C13F008EFFA6 /* FJFileCleanCache.m in Sources */,
 				8E2B68DC20E726B200A0E820 /* UIView+BorderRadius.m in Sources */,
+				8E5F864520F66CB100A772F4 /* XibUtils.m in Sources */,
 				8E18771D20E113810083A941 /* AppDelegate.m in Sources */,
 				8E2B68D420E726B200A0E820 /* NSDictionary+Safe.m in Sources */,
 				8E01031620E3C1BC008EFFA6 /* FunctionHelper.m in Sources */,
 				8E2B699220EB919300A0E820 /* CountDownButton.m in Sources */,
+				8E5F864220F66CA300A772F4 /* UIImage+Radius.m in Sources */,
 				8E01030120E3C13F008EFFA6 /* DAAppsViewController.m in Sources */,
 				8E2B68E420E726B200A0E820 /* NSString+URLEncode.m in Sources */,
 				8E2B68E020E726B200A0E820 /* NSString+Hash.m in Sources */,
