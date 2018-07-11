@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface XibUtils : NSObject
 + (id)nibNameIdentifer:(NSString *)identifer andClass:(id)object;
 @end
