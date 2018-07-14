@@ -18,4 +18,5 @@ typedef void (^ CurrentCountBlock) (NSInteger currentCount);
 
 @property (nonatomic, copy) CurrentCountBlock currentCountBlock;
 
+- (void)startTimer;
 @end

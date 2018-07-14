@@ -80,6 +80,8 @@
     if (self.currentCount > 0) {
         if(self.currentCountBlock){
             self.currentCountBlock(self.currentCount);
+        }else{
+            [self setTitle:[NSString stringWithFormat:@"%lds 后重发",(long)self.currentCount] forState:UIControlStateNormal];
         }
         self.currentCount --;
     }else{
