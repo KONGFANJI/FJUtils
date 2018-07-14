@@ -10,6 +10,7 @@
 #define FJUtils_h
 
 #import "StoryboardUtils.h"
+#import "XibUtils.h"
 #import "FJPublicTools.h"
 #import "UIViewUtils.h"
 #import "GTFixSizeUtils.h"

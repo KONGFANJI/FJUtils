@@ -28,6 +28,7 @@
 #import "UIImage+ImageEffects.h"
 #import "UIImage+Resize.h"
 #import "UIImage+Scale.h"
+#import "UIImage+Radius.h"
 
 #import "UITabBar+badge.h"
 
@@ -40,5 +41,8 @@
 
 #import "NSDate+Category.h"
 #import "NSDateFormatter+Category.h"
+
+#import "UIButton+Attributes.h"
+#import "UIButton+ImageTitleSpacing.h"
 
 #endif /* CategoryContainer_h */
