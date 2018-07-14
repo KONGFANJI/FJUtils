@@ -1,6 +1,6 @@
 Pod::Spec.new do |s| 
 s.name = "FJUtils" # 名称 （同工程名，写错了就用不了了）
-s.version = "0.2.1" # 代码库的版本
+s.version = "0.2.2" # 代码库的版本
 s.summary = "公共方法" # 简介
 s.description = "公共方法，方便以后调用" # 描述
 s.homepage = "https://github.com/KONGFANJI" # 开发者主页
