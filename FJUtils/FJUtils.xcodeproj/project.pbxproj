@@ -17,7 +17,6 @@
 		8E01030520E3C13F008EFFA6 /* FJAppInfoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0102F820E3C13E008EFFA6 /* FJAppInfoUtils.m */; };
 		8E01030620E3C13F008EFFA6 /* FJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0102FA20E3C13E008EFFA6 /* FJRouter.m */; };
 		8E01030720E3C13F008EFFA6 /* FJFileCleanCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0102FC20E3C13E008EFFA6 /* FJFileCleanCache.m */; };
-		8E01030820E3C13F008EFFA6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E0102FD20E3C13E008EFFA6 /* Info.plist */; };
 		8E01031220E3C1BC008EFFA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E01030920E3C1BB008EFFA6 /* ViewController.m */; };
 		8E01031320E3C1BC008EFFA6 /* JinPingMei.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E01030B20E3C1BB008EFFA6 /* JinPingMei.txt */; };
 		8E01031420E3C1BC008EFFA6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E01030C20E3C1BB008EFFA6 /* TestViewController.m */; };
@@ -671,7 +670,6 @@
 				8E01031320E3C1BC008EFFA6 /* JinPingMei.txt in Resources */,
 				8E01031520E3C1BC008EFFA6 /* TableViewList.plist in Resources */,
 				8E18772320E113810083A941 /* Main.storyboard in Resources */,
-				8E01030820E3C13F008EFFA6 /* Info.plist in Resources */,
 				8E01030320E3C13F008EFFA6 /* DAAppsViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
