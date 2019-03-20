@@ -43,7 +43,7 @@ ss.source_files = 'FJUtils/Classes/FileUtils/*.*'
 end
 
 s.subspec 'Category' do |ss|
-ss.source_files = 'FJUtils/Classes/Category/CategoryContainer.h','FJUtils/Classes/Category/Foundation/*.{h,m}','FJUtils/Classes/Category/NSError/*.{h,m}','FJUtils/Classes/Category/NSString/*.{h,m}','FJUtils/Classes/Category/Safe/*.{h,m}','FJUtils/Classes/Category/UIColor/*.{h,m}','FJUtils/Classes/Category/UILabel/*.{h,m}','FJUtils/Classes/Category/UIImage/*.{h,m}','FJUtils/Classes/Category/UITabBar/*.{h,m}','FJUtils/Classes/Category/UIView/*.{h,m}','FJUtils/Classes/Category/NSDate/*.{h,m}','FJUtils/Classes/Category/UIResponder/*.{h,m}','FJUtils/Classes/Category/UIButton/*.{h,m},'FJUtils/Classes/Category/UIWindow/*.{h,m}'
+ss.source_files = 'FJUtils/Classes/Category/CategoryContainer.h','FJUtils/Classes/Category/Foundation/*.{h,m}','FJUtils/Classes/Category/NSError/*.{h,m}','FJUtils/Classes/Category/NSString/*.{h,m}','FJUtils/Classes/Category/Safe/*.{h,m}','FJUtils/Classes/Category/UIColor/*.{h,m}','FJUtils/Classes/Category/UILabel/*.{h,m}','FJUtils/Classes/Category/UIImage/*.{h,m}','FJUtils/Classes/Category/UITabBar/*.{h,m}','FJUtils/Classes/Category/UIView/*.{h,m}','FJUtils/Classes/Category/NSDate/*.{h,m}','FJUtils/Classes/Category/UIResponder/*.{h,m}','FJUtils/Classes/Category/UIButton/*.{h,m}','FJUtils/Classes/Category/UIWindow/*.{h,m}'
 ss.frameworks = "Foundation","UIKit","CoreGraphics"
 end
 
@@ -53,7 +53,7 @@ ss.dependency 'FJUtils/Category'
 end
 
 s.frameworks = "Foundation","UIKit","CoreGraphics"
-s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO'}   # 编译flag
+s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'YES'}   # 编译flag
 #s.libraries = 'libicucore' #依赖第三方库文件。（libicucore.tbd文件为系统定义的库文件，直接使用该命令导入无效，仍需手动在Xcode中导入，原因待查）
 s.static_framework  =  true
 
