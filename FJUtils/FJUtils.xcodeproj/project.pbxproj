@@ -48,6 +48,7 @@
 		8E2B68E520E726B200A0E820 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68CE20E726B200A0E820 /* UITabBar+badge.m */; };
 		8E2B68EB20E7308B00A0E820 /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B68E920E7308B00A0E820 /* IconButton.m */; };
 		8E2B699220EB919300A0E820 /* CountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B699020EB919300A0E820 /* CountDownButton.m */; };
+		8E5A13F92242346B007E60EB /* UIWindow+CurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A13F72242346B007E60EB /* UIWindow+CurrentVC.m */; };
 		8E5F863E20F66C9400A772F4 /* UIButton+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F863B20F66C9300A772F4 /* UIButton+Attributes.m */; };
 		8E5F863F20F66C9400A772F4 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F863C20F66C9300A772F4 /* UIButton+ImageTitleSpacing.m */; };
 		8E5F864220F66CA300A772F4 /* UIImage+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F864020F66CA300A772F4 /* UIImage+Radius.m */; };
@@ -164,6 +165,8 @@
 		8E2B68EA20E7308B00A0E820 /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
 		8E2B699020EB919300A0E820 /* CountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownButton.m; sourceTree = "<group>"; };
 		8E2B699120EB919300A0E820 /* CountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownButton.h; sourceTree = "<group>"; };
+		8E5A13F72242346B007E60EB /* UIWindow+CurrentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentVC.m"; sourceTree = "<group>"; };
+		8E5A13F82242346B007E60EB /* UIWindow+CurrentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentVC.h"; sourceTree = "<group>"; };
 		8E5F863A20F66C9300A772F4 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		8E5F863B20F66C9300A772F4 /* UIButton+Attributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Attributes.m"; sourceTree = "<group>"; };
 		8E5F863C20F66C9300A772F4 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
@@ -336,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2B68E620E726CC00A0E820 /* CategoryContainer.h */,
+				8E5A13F62242346B007E60EB /* UIWindow */,
 				8E5F863920F66C9300A772F4 /* UIButton */,
 				8E8076F220EC57D600FC08AD /* NSDate */,
 				8E8076F720EC57D600FC08AD /* UIResponder */,
@@ -479,6 +483,15 @@
 				8E2B699020EB919300A0E820 /* CountDownButton.m */,
 			);
 			path = CountDownButton;
+			sourceTree = "<group>";
+		};
+		8E5A13F62242346B007E60EB /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				8E5A13F82242346B007E60EB /* UIWindow+CurrentVC.h */,
+				8E5A13F72242346B007E60EB /* UIWindow+CurrentVC.m */,
+			);
+			path = UIWindow;
 			sourceTree = "<group>";
 		};
 		8E5F863920F66C9300A772F4 /* UIButton */ = {
@@ -738,6 +751,7 @@
 				8E8076FB20EC57D600FC08AD /* NSDateFormatter+Category.m in Sources */,
 				8E2B68D920E726B200A0E820 /* UIView+Rect.m in Sources */,
 				8E0102FF20E3C13E008EFFA6 /* StoryboardUtils.m in Sources */,
+				8E5A13F92242346B007E60EB /* UIWindow+CurrentVC.m in Sources */,
 				8E2B68D820E726B200A0E820 /* UILabel+Utility.m in Sources */,
 				8E01031220E3C1BC008EFFA6 /* ViewController.m in Sources */,
 				8E01031420E3C1BC008EFFA6 /* TestViewController.m in Sources */,
@@ -931,6 +945,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K95BRJ2RRY;
 				INFOPLIST_FILE = FJUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -950,6 +965,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K95BRJ2RRY;
 				INFOPLIST_FILE = FJUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

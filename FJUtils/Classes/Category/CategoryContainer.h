@@ -45,4 +45,6 @@
 #import "UIButton+Attributes.h"
 #import "UIButton+ImageTitleSpacing.h"
 
+#import "UIWindow+CurrentVC.h"
+
 #endif /* CategoryContainer_h */
