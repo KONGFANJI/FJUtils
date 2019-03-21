@@ -87,7 +87,11 @@
     }else{
         [self endTimer];
         self.enabled = YES;
-        [self setTitle:self.originalText forState:UIControlStateNormal];
+        if(self.currentCountBlock){
+            self.currentCountBlock(self.currentCount);
+        }else{
+            [self setTitle:self.originalText forState:UIControlStateNormal];
+        }
         self.currentCount = self.countNum;
     }
 }
